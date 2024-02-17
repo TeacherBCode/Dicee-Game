@@ -1,0 +1,98 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 10px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #4ECCA3;
+}
+
+h3,.imgText,p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+
+.button {
+  background-color:  #08d087; /* Green */
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 25px;
+  border-radius: 40%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  
+}
+
+.button:hover{
+  background-color: #04AA6D;
+  padding:20px 32px;
+  border-radius: 30%;
+}
+
+button a{
+  /* margin-top: 2rem; */
+  color: white;
+}
+
+.scoreMargin{
+  padding-right: 20px;
+
+}
+
+.scoreContainer  {
+  display: grid;
+  grid-template-columns:  auto 25% 25% auto;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.dice_score{
+  display: grid;
+  grid-template-columns: auto auto;
+  border: 5px solid white;
+}
+
+@media (max-width: 700px){
+  .scoreContainer  {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    justify-content: center;
+    align-content: center;
+  }
+  
+}
