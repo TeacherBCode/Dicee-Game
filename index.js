@@ -23,11 +23,11 @@ function rollDice(){
 
 
     if (player1 > player2){
-        document.querySelector("h1").innerText = "Player 1 Wins";
+        document.querySelector("h1").innerText = "🚩Player 1 Wins";
         score1++;
         document.querySelector(".player1_score").innerText = score1;
     }else if (player2 > player1){
-        document.querySelector("h1").innerText = "Player 2 Wins";
+        document.querySelector("h1").innerText = "Player 2 Wins🚩";
         score2++;
         document.querySelector(".player2_score").innerText = score2;
     }else{
