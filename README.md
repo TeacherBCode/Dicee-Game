@@ -1,7 +1,7 @@
 # Dicee-Game
 
 This is a Simple Roll the Dice Game for two players.
-![image](https://github.com/TeacherBCode/Dicee-Game/assets/156999512/d2e27ccf-f5cc-40c5-9533-2837146b18d0)
+![](https://github.com/TeacherBCode/Dicee-Game/assets/156999512/d2e27ccf-f5cc-40c5-9533-2837146b18d0 = 250x250)
 
 It uses random function so the score is completely Unpredictable /simply said as "BEST OF LUCk" for each Player.
 
